@@ -1,0 +1,79 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+
+
+/* Pink Salt (#FAD0C9FF) 
+        Charcoal Gray (#6E6E6DFF)
+*/
+header {
+    background-color: #FAD0C9FF;
+}
+.review {
+    width: 100%;
+    height: 35rem;
+    background-color: #FAD0C9FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponser {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.sponser img {
+    width: 8rem;
+    margin: 1rem;
+}
+.carousel_container {
+    width: 40rem;
+    height: 20rem;
+    position: relative;
+    margin: 3rem auto;
+
+}
+
+.carousel_item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    list-style: none;
+    margin: 2rem;
+}
+.carousel_btn img{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+.less_than_icon {
+    left: -30px;
+}
+.greater_than_icon {
+    right: -30px;
+}
+.carousels_cards img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.carousels_cards p {
+    font-size: 2rem;
+    margin: 3rem;
+}
+.img-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-name p {
+    font-size: 1rem;
+
+}
